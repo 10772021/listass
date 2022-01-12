@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?md91el');
+  src:  url('fonts/icomoon.eot?md91el#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?md91el') format('truetype'),
+    url('fonts/icomoon.woff?md91el') format('woff'),
+    url('fonts/icomoon.svg?md91el#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-switch:before {
+  content: "\e9b6";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+
+
+html {
+	
+    padding: 0.5em;
+    
+}
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+
+
+}
+
+h2{
+    color: black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.lista1 li {
+	float: left;
+	width: 10em;
+	border: 5px dashed #954A95;
+	margin-right: 1em;
+	padding: 0.5em 0em;
+	background-color: #5ACE77;
+	color: #5E0272;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lista2 li {
+	background-color: white;
+	border-bottom: black 2px solid;
+	border-right: black 2px solid;
+	display: inline;
+	margin-right: 5px;
+	text-align: center;
+	padding: 0.5em;
+}
+
+.lista2 {
+	text-align: center;
+}
+
+.lista2 li:hover{
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-bottom: white 2px solid;
+	border-right: white 2px solid;
+	background-color: gray;
+}
+
+.lista3 {
+	padding: 0.5em;
+	width: 11em;
+	border: black 1px solid;
+	text-aling: center;
+}
+
+.lista3 li {
+	background-color: white;
+	width: 9em;
+	border: black 1px solid;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+.lista4 li {
+	background-color: white;
+	border-bottom: black 2px solid;
+	border-right: black 2px solid;
+	margin-right: 5px;
+	text-align: center;
+	padding: 0.5em;
+	width: 10em;
+	display: inline-block;
+	color:blue;
+}
+.lista4 li.par{
+	background-color: blue;
+	border-bottom: black 2px solid;
+	border-right: black 2px solid;
+	margin-right: 5px;
+	text-align: center;
+	padding: 0.5em;
+	width: 10em;
+	display: inline-block;
+	color:white;
+}
+
+.lista4 {
+	text-align: center
+}
+
+.lista5 li{
+    display: inline;
+    color: black;
+    padding: 0.5em;
+}
+
+.lista6 li{
+display: inline;
+border:black 0.1em solid;
+padding:1em;
+border-radius: 0.3em;
+color: black;
+font-size: 200%;
+line-height: 250%;
+background-color: white;
+}
+
+.lista6 {
+text-align: center;
+}
+
+
+.sec {
+	clear: both;
+}
+.icon-home:before {
+    content: "\e900";
+}
+
